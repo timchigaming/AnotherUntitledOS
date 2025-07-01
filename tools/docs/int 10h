@@ -1,0 +1,8 @@
+#   AH, 0x00
+| al, 4: 4 colors, 320x200
+\ 0 = black, 1 = cyan, 2 = pink, 3 = white
+
+#   AH, 0x0b
+| bh, 0: pick background
+\ bl: 0 = black, 1 = blue, 2 = green, 3 = cyan, 4 = red, 5 = purple, 6 = yellow, 7 = gray
+\ bl: 8 = green, 9 = light blue, 10 = light green, 11 = light cyan, 12 = brown, 13 = light purple, 14 = acid yellow, 15 = cream
